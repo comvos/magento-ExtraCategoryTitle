@@ -16,7 +16,7 @@ $this->addAttribute('catalog_category', 'extra_category_title', array(
     'type'              => 'varchar',
     'label'             => 'Alternative Title',
     'input'             => 'text',
-    'global'            => 'Mage_Catalog_Model_Resource_Eav_Attribute::SCOPE_STORE',
+    'global'            => Mage_Catalog_Model_Resource_Eav_Attribute::SCOPE_STORE,
     'visible'           => true,
     'required'          => false,
     'unique'            => false,
