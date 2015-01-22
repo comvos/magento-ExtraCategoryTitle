@@ -26,7 +26,7 @@ $this->addAttribute('catalog_category', 'extra_category_title', array(
 
 $entityTypeId   = $installer->getEntityTypeId('catalog_category');
 $attributeSetId = $installer->getDefaultAttributeSetId($entityTypeId);
-$installer->addAttributeToGroup($entityTypeId,$attributeSetId,'General Information','extra_category_title',4);
+$installer->addAttributeToGroup($entityTypeId,$attributeSetId,'General','extra_category_title',4);
 
 
 $installer->endSetup();
